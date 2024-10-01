@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Bonk</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  
+  <body style="margin: 0;">
+
+    <header class="flexbox">
+        <div>
+          <h1>Creature Life Converter</h1>
+        </div>
+				<div>
+          <img src="https://i.imgur.com/uvv6e3V.jpg" alt="Dog" class="logo-1" />
+        </div>
+		</header>
+
+
+
+
+
+    <br style="margin: 0; padding: 0; font-size: 7.7vh;" />
+
+
+
+
+    
+    <article>
+      <div>
+         <h1 id="name"></h1>
+      </div>
+      <div>
+        <p>Please select the what animal's age you want to convert </p>
+        <td>Dog<input type="radio" id="dog" name="animal" value="dog" /></td>
+        <td>Cat<input type="radio" id="cat" name="animal" value="cat" /></td>
+        <button onclick="getValue()">Submit</button>
+      </div>
+      <div>
+        <br />
+<!--         <h1 id="age"></h1> -->
+      </div>
+    </article>
+
+
+
+
+    
+    <article style="background-color: rgba(5, 183, 247, 0.7);">
+      <div>
+        <h2 class="center">Your Animal's Age Is...</h2>
+      </div>
+      <br />
+      <div class="flexbox" style="justify-content: space-between; align-items: center;">
+        <div>
+          <h3>Newborn</h3>
+        </div>
+        <div>
+          <h3>Dead</h3>
+        </div>
+      </div>
+      <div style="border: 1px solid black;">
+        <div class="progress-bar" id="bar">
+          <h3 id="age" style="margin: 0;" class="center"></h3>
+        </div>
+      </div>
+    </article>
+    
+
+    <article>
+      <div>
+        <h1 id="thank-you"></h1>
+      </div>
+    </article> 
+ 
+
+    
+    
+  </body>
+  <script src="script.js"></script>
+</html>
